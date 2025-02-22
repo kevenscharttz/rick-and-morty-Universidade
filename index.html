@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./src/styles/reset.css">
+        <link rel="stylesheet" href="./src/styles/vars.css">
+        <link rel="stylesheet" href="./src/styles/style.css">
+        <title>Rick & Morty Wiki</title>
+    </head>
+    <body>
+        <header class="header-container">
+            <a href="./index.html" class="logo">Rick & Morty <span class="markup">Wiki</span></a>
+            <nav class="nav-container">
+                <a href="#" class="nav__link">Personagens</a>
+                <a href="#" class="nav__link">Episódios</a>
+                <a href="#" class="nav__link">Localização</a>
+            </nav>
+        </header>
+        <main>
+            <h1 class="title-main">Personagens</h1>
+            <div class="search-container">
+                <input type="text" placeholder="Pesquisar por personages..." class="search__input">
+                <button class="search__button">Procurar</button>
+            </div>
+            <div class="principal-content">
+
+                <div class="filters-container">
+                    <h2 class="title__filters">Filters</h2>
+                    <a href="#" class="link__filters">Clear Filters</a>
+                    <div class="menu__filters">
+                        
+                        <div class="menu__options">
+                            <a href="#" class="filter__option">Status</a>
+                            <img src="./src/assets/caret-down-solid.svg" alt="" class="image-filter">
+                        </div>
+                        <div class="dropdown-content">
+                            <button class="filter__button" data-filter="Alive">Alive</button>
+                            <button class="filter__button" data-filter="Dead">Dead</button>
+                            <button class="filter__button" data-filter="Unknown">Unknown</button>
+                        </div>
+                        
+                        <div class="menu__options">
+                            <a href="#" class="filter__option">Espécie</a>
+                            <img src="./src/assets/caret-down-solid.svg" alt="" class="image-filter">
+                        </div>
+                        <div class="dropdown-content">
+                            <button class="filter__button" data-filter="Human">Human</button>
+                            <button class="filter__button" data-filter="Alien">Alien</button>
+                        </div>
+                        
+                        <div class="menu__options">
+                            <a href="#" class="filter__option">Gênero</a>
+                            <img src="./src/assets/caret-down-solid.svg" alt="" class="image-filter">
+                        </div>
+                        <div class="dropdown-content">
+                            <button class="filter__button" data-filter="Male">Male</button>
+                            <button class="filter__button" data-filter="Female">Female</button>
+                        </div>             
+                        
+                    </div>
+                </div>
+
+                <div class="cards-container">
+                    <a href="https://en.wikipedia.org/wiki/Rick_Sanchez" class="link-cards">
+                        <div class="card">
+                            <div class="card__profile">
+                                <span class="card__status">Alive</span>
+                                <img src="./src/assets/rick.jpeg" alt="" class="card__image">
+                            </div>
+                            <div class="card__legend">
+                                <h2 class="card__title">Rick Sanchez</h2>
+                                <p class="card__last__location">Last Location</p>
+                                <p class="card__location">Cidadel of Ricks</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- card 2 -->
+                    <a href="https://en.wikipedia.org/wiki/Morty_Smith" class="link-cards">
+                        <div class="card">
+                            <div class="card__profile">
+                                <span class="card__status">Alive</span>
+                                <img src="./src/assets/morty.jpeg" alt="" class="card__image">
+                            </div>
+                            <div class="card__legend">
+                                <h2 class="card__title">Morty Smith</h2>
+                                <p class="card__last__location">Last Location</p>
+                                <p class="card__location">Cidadel of Ricks</p>
+                            </div>     
+                        </div>
+                    </a>
+                    <!-- card 3 -->
+                    <a href="https://en.wikipedia.org/wiki/Summer_Smith" class="link-cards">
+                        <div class="card">
+                            <div class="card__profile">
+                                <span class="card__status">Alive</span>
+                                <img src="./src/assets/summer.jpeg" alt="" class="card__image">
+                            </div>
+                            <div class="card__legend">
+                                <h2 class="card__title">Summer Smith</h2>
+                                <p class="card__last__location">Last Location</p>
+                                <p class="card__location">Earth</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- card 4 -->
+                    <a href="https://en.wikipedia.org/wiki/Beth_Smith" class="link-cards">
+                        <div class="card">
+                            <div class="card__profile">
+                                <span class="card__status">Alive</span>
+                                <img src="./src/assets/beth.jpeg" alt="" class="card__image">
+                            </div>
+                            <div class="card__legend">
+                                <h2 class="card__title">Beth Smith</h2>
+                                <p class="card__last__location">Last Location</p>
+                                <p class="card__location">Earth</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- card 5 -->
+                    <a href="https://en.wikipedia.org/wiki/Jerry_Smith_(Rick_and_Morty)" class="link-cards">
+                        <div class="card">
+                            <div class="card__profile">
+                                <span class="card__status">Alive</span>
+                                <img src="./src/assets/jerry.jpeg" alt="" class="card__image">
+                            </div>
+                            <div class="card__legend">
+                                <h2 class="card__title">Jerry Smith</h2>
+                                <p class="card__last__location">Last Location</p>
+                                <p class="card__location">Earth</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>

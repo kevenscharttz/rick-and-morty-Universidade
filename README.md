@@ -1,7 +1,6 @@
 # Rick and Morty - Universidade
 
-Projeto simples desenvolvido com HTML, CSS e JavaScript, consumindo a [Rick and Morty API](https://rickandmortyapi.com/).
-
+Projeto simples desenvolvido com HTML, CSS e JavaScript.
 🔗 [Visualizar projeto online](https://kevenscharttz.github.io/rick-and-morty-site/)
 
 ## 🚀 Tecnologias Utilizadas
